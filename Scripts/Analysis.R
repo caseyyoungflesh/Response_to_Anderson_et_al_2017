@@ -24,8 +24,8 @@ require(dplyr)
 
 # Create data -------------------------------------------------------------
 
-setwd('C:/Users/Lynch Lab 7/Google_Drive/R/Black_swan/analysis/')
-#setwd('~/Google_Drive/R/Black_swan/analysis/')
+setwd('C:/Users/Lynch Lab 7/Google_Drive/R/Response_to_Anderson_et_al_2017/Data')
+#setwd('~/Google_Drive/R/Response_to_Anderson_et_al_2017/Data')
 
 #load in cleaned GPDD data from Anderson et al. 2017
 gpdd <- readRDS("gpdd-clean.rds")
@@ -155,7 +155,7 @@ unphysical <- f_data[f_data$r_max > f_data$Rho,]
 prop_unphysical <- nrow(unphysical)/nrow(f_data) #16% of times series unphysical
 
 
-sort(f_data$common_name)
+
 #time series that are 'black swans'
 bs_data <- filter(f_data, p10 > 0.5)
 
@@ -198,15 +198,9 @@ mean(max_vals/mean_vals)
 
 
 
-# Time series plots -------------------------------------------------------
+# Red Grouse -------------------------------------------------------
 
-
-select(bs_unphysical, main_id, common_name, taxon_name, r_max, Rho, Fert)
-
-#American Red Fox - 20546
-#rock ptarmigan - 9953 - hunting season longer
-#Red grouse - 10039
 #Red grouse - 10128 - 16-fold increase in abundance - Potts et al. 1984 source
-temp <- filter(gpdd, main_id == 10128)
-plot(temp$series_step, temp$population_untransformed, type ='b')
-cbind(temp$sample_year, temp$population_untransformed)
+RG <- filter(gpdd, main_id == 10128)
+plot(RG$series_step, RG$population_untransformed, type ='b')
+cbind(RG$sample_year, RG$population_untransformed)
