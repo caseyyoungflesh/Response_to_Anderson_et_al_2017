@@ -1,5 +1,5 @@
 ###################
-#Code to produce results from Youngflesh and Lynch 'Black-swan events - population crashes or temporary emigration'
+#Code to produce results from Youngflesh and Lynch 'Black-swan events - population crashes or temporary emigration?'
 #Reply to Anderson et al. 2017 PNAS 'Black-swan events in animal populations'
 #
 #Primary author: Casey Youngflesh
