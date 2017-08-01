@@ -1,6 +1,6 @@
 ###################
-#Code to produce results from 'Open populations can lead to unphysical estimates of population dynamics'
-#Reply to 'Black-swan events in animal populations'
+#Code to produce results from Youngflesh and Lynch 'Black-swan events - population crashes or temporary emigration'
+#Reply to Anderson et al. 2017 PNAS 'Black-swan events in animal populations'
 #
 #Primary author: Casey Youngflesh
 #Script contains data and some code taken from https://github.com/seananderson/heavy-tails
@@ -24,8 +24,7 @@ require(dplyr)
 
 # Create data -------------------------------------------------------------
 
-setwd('C:/Users/Lynch Lab 7/Google_Drive/R/Response_to_Anderson_et_al_2017/Data')
-#setwd('~/Google_Drive/R/Response_to_Anderson_et_al_2017/Data')
+setwd('Data')
 
 #load in cleaned GPDD data from Anderson et al. 2017
 gpdd <- readRDS("gpdd-clean.rds")
