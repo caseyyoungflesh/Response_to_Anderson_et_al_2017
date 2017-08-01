@@ -3,7 +3,7 @@
 #Reply to 'Black-swan events in animal populations'
 #
 #Primary author: Casey Youngflesh
-#Much of this code is taken from https://github.com/seananderson/heavy-tails
+#Script contains data and some code taken from https://github.com/seananderson/heavy-tails
 #
 ###################
 
