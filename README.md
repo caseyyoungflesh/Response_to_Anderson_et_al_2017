@@ -1,5 +1,5 @@
 # Response_to_Anderson_et_al_2017
-Code and data for Youngflesh and Lynch response to Anderson et al. 2017 PNAS.
+Code and data for Youngflesh and Lynch Letter regarding Anderson et al. 2017 PNAS.
 
 Original paper:
 
