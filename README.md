@@ -19,5 +19,5 @@ Original paper:
 
 All input data and some code to process data taken from respository associated with original manuscript: https://github.com/seananderson/heavy-tails
 
-Data and code associated with Anderson et al. (2017) response: https://github.com/seananderson/heavy-tails-response
+Data and code associated with Anderson et al. (2017) reply: https://github.com/seananderson/heavy-tails-response
 
